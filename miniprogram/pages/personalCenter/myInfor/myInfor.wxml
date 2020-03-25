@@ -1,0 +1,58 @@
+<view class='inforContainer'>
+  <!--用户名  -->
+  <view class='inforListContainer'>
+    <text class='inforListText'>用户名</text>
+    <text class='inforListName'>{{userName}}</text>
+  </view>
+  <!--姓名  -->
+  <view class='inforListContainer' bindtap='updateNameTap'>
+    <text class='inforListText'>姓名</text>
+    <view class='inforListNameContainer'>
+      <text class='inforListName'>{{realName}}</text>
+      <image src='/images/moreIcon.png' class='moreIconImg'></image>
+    </view>
+  </view>
+  <!--性别  -->
+  <view class='inforListContainer'>
+    <text class='inforListText'>性别</text>
+    <open-data type="userGender" lang="zh_CN" class='inforListName'></open-data>
+  </view>
+</view>
+<view class='inforContainer'>
+  <!--手机号码  -->
+  <view class='inforListContainer' bindtap='updatePhoneTap'>
+    <text class='inforListText'>手机号码</text>
+    <view class='inforListNameContainer'>
+      <text class='inforListName'>{{phone}}</text>
+      <image src='/images/moreIcon.png' class='moreIconImg'></image>
+    </view>
+  </view>
+  <!--证件类型  -->
+  <view class='inforListContainer'>
+    <text class='inforListText'>证件类型</text>
+    <text class='inforListName'>中华人民共和国居民身份证</text>
+  </view>
+  <!--证件号  -->
+  <view class='inforListContainer' bindtap='updateCardTap'>
+    <text class='inforListText'>证件号</text>
+    <view class='inforListNameContainer'>
+      <text class='inforListName'>{{card}}</text>
+      <image src='/images/moreIcon.png' class='moreIconImg'></image>
+    </view>
+  </view>
+  <!--邮箱  -->
+  <view class='inforListContainer' bindtap='updateEmailTap'>
+    <text class='inforListText'>邮箱</text>
+    <view class='inforListNameContainer'>
+      <text class='inforListName'>{{email}}</text>
+      <image src='/images/moreIcon.png' class='moreIconImg'></image>
+    </view>
+  </view>
+</view>
+<view class='inforContainer'>
+  <!--修改登录密码  -->
+  <view class='inforListContainer' bindtap='updatePasswordTap'>
+    <text class='inforListText'>修改登录密码</text>
+    <image src='/images/moreIcon.png' class='moreIconImg'></image>
+  </view>
+</view>

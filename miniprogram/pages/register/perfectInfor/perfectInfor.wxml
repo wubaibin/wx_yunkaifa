@@ -1,0 +1,54 @@
+<!--返回主页  -->
+<view class='backHome' bindtap='backHomeTap'>
+  <image src='/images/homeIcon.png' class='backHomeImg'></image>
+</view>
+<!--头部  -->
+<view class='headerContainer'>
+  <!--创建账户  -->
+  <view class='headerListContainer headerListOldActive'>
+    <view class='headerListView'>1</view>
+    <text class='headerListText'>创建账户</text>
+  </view>
+  <!--完善个人信息  -->
+  <view class='headerListContainer headerListActive'>
+    <view class='headerListView'>2</view>
+    <text class='headerListText'>完善个人信息</text>
+  </view>
+  <!--注册成功  -->
+  <view class='headerListContainer'>
+    <view class='headerListView'>3</view>
+    <text class='headerListText'>注册成功</text>
+  </view>
+  <view class='transverseLineLeft'></view>
+  <view class='transverseLineright'></view>
+</view>
+<!--main  -->
+<view class='mainContainer'>
+  <!--手机  -->
+  <view class='mainListContainer'>
+    <view class='mainListText'>手机</view>
+    <input class='mainListInput' placeholder='请输入手机号码' maxlength="11" bindinput='phoneInput'></input>
+  </view>
+  <!--真实姓名  -->
+  <view class='mainListContainer'>
+    <view class='mainListText'>真实姓名</view>
+    <input class='mainListInput' placeholder='请输入真实姓名' maxlength='25' bindinput='nameInput'></input>
+  </view>
+  <!--证件类型  -->
+  <view class='mainListContainer'>
+    <view class='mainListText'>证件类型</view>
+    <view class='cardText'>中华人民共和国居民身份证</view>
+  </view>
+  <!--证件号码  -->
+  <view class='mainListContainer'>
+    <view class='mainListText'>证件号码</view>
+    <input class='mainListInput' type='idcard' placeholder='请输入身份证号码' maxlength="18" bindinput='cardInput'></input>
+  </view>
+  <!--邮箱  -->
+  <view class='mainListContainer'>
+    <view class='mainListText'>邮箱</view>
+    <input class='mainListInput' placeholder='请输入常用的邮箱地址' bindinput='emailInput'></input>
+  </view>
+</view>
+<!--nextButton  -->
+<view class='nextButton' bindtap='registerSuccessTap'>下一步，完成</view>

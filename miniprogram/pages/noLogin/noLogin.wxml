@@ -1,0 +1,2 @@
+<view class="register" bindtap='registerTap'>没有账号，立即注册</view>
+<view class="binding" bindtap='bindingTap'>已有账号，马上登录</view>

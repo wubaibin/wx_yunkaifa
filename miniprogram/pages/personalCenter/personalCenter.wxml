@@ -1,0 +1,32 @@
+<view class='headerContainer'>
+  <view class='headerImgContainer'>
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class='nameContainer'>{{realName}}</view>
+</view>
+<view class='mainContentContainer'>
+  <!--账户信息  -->
+  <view class='mainContainer' bindtap='myInforTap'>
+    <view class='mainInforContainer'>
+      <image src='/images/myInfor.png' class='myInforImg'></image>
+      <text class='mainText'>账户信息</text>
+    </view>
+    <image src='/images/moreIcon.png' class='moreIcon'></image>
+  </view>
+  <!--我的投诉  -->
+  <view class='mainContainer' bindtap='myComplainTap'>
+    <view class='mainInforContainer'>
+      <image src='/images/myReport.png' class='myReportImg'></image>
+      <text class='mainText'>我的投诉</text>
+    </view>
+    <image src='/images/moreIcon.png' class='moreIcon'></image>
+  </view>
+  <!--我的举报  -->
+  <view class='mainContainer' bindtap='myReportTap'>
+    <view class='mainInforContainer'>
+      <image src='/images/myComplain.png' class='myComplainImg'></image>
+      <text class='mainText'>我的举报</text>
+    </view>
+    <image src='/images/moreIcon.png' class='moreIcon'></image>
+  </view>
+</view>

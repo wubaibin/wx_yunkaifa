@@ -1,0 +1,23 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.backHome {
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: -20rpx;
+  left: 20rpx;
+  z-index: 30;
+}
+
+.backHomeImg {
+  width: 60rpx;
+  height: 60rpx;
+}

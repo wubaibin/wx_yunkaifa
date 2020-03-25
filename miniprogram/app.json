@@ -1,0 +1,41 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/index/complain/complain",
+    "pages/index/image/image",
+    "pages/personalCenter/personalCenter",
+    "pages/personalCenter/myInfor/myInfor",
+    "pages/noLogin/noLogin",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/register/perfectInfor/perfectInfor",
+    "pages/register/registerSuccess/registerSuccess"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#333d9c",
+    "navigationBarTitleText": "我的云开发",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#816c5b",
+    "backgroundColor": "#fff",
+    "selectedColor": "#38429f",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/home02.png",
+        "selectedIconPath": "/images/home.png"
+      },
+      {
+        "pagePath": "pages/personalCenter/personalCenter",
+        "text": "个人中心",
+        "iconPath": "/images/member.png",
+        "selectedIconPath": "/images/member02.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

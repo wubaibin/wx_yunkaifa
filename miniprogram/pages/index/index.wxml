@@ -1,0 +1,25 @@
+<!--头部-->
+<view class='headerContainer'>
+  <image src='../../images/headerBg.png' class='headerBg'></image>
+</view>
+<!--消费者  -->
+<view class='mainContentContainer'>
+  <view class='mainListContainer' bindtap='lawsTap'>
+    <image src='{{mainImg.mainImg03}}' class='mainListImg'></image>
+    <view class='mainListTextContainer'>{{mainTitle.mainTitle02}}{{mainText.mainText03}}</view>
+  </view>
+  <view class='mainListContainer' bindtap='knowledgeTap'>
+    <view class='mainListTextContainer'>{{mainTitle.mainTitle02}}{{mainText.mainText04}}</view>
+    <image src='{{mainImg.mainImg04}}' class='mainListImg'></image>
+  </view>
+</view>
+<!--投诉举报  -->
+<view class='sectionContainer'>
+  <image src='../../images/divBg.jpg' class='sectionBg'></image>
+  <view class='complain' bindtap='complainTap'>
+    <image src='/images/complain.png' class='headerImg'></image>
+  </view>
+  <view class='report'>
+    <image src='/images/report.png' class='headerImg'></image>
+  </view>
+</view>

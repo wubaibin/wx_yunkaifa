@@ -1,0 +1,28 @@
+.register {
+  width: 60%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #1e8dee;
+  border: 1px solid #1e8dee;
+  border-radius: 10rpx;
+  position: absolute;
+  bottom: 25%;
+  left: 20%;
+}
+
+.binding {
+  width: 60%;
+  height: 80rpx;
+  margin: 0 auto;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #fff;
+  background-color: #1e8dee;
+  border-radius: 10rpx;
+  position: absolute;
+  bottom: 15%;
+  left: 20%;
+}

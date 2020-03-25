@@ -1,0 +1,9 @@
+<view class='successIcon'>
+  <icon type='success' size='80'></icon>
+</view>
+<view class='congratulation'>恭喜你,信息已完善!</view>
+<view class='backContainer'>
+  <text class='time'>{{second}}</text>
+  <text>秒后返回登录</text>
+</view>
+<view class='backToPersonalCenter' bindtap='goToPersonalCenter'>进入登录页面</view>

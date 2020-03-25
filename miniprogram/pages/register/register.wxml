@@ -1,0 +1,54 @@
+<!--返回主页  -->
+<view class='backHome' bindtap='backHomeTap'>
+  <image src='/images/homeIcon.png' class='backHomeImg'></image>
+</view>
+<!--头部  -->
+<view class='headerContainer'>
+  <!--创建账户  -->
+  <view class='headerListContainer headerListActive'>
+    <view class='headerListView'>1</view>
+    <text class='headerListText'>创建账户</text>
+  </view>
+  <!--完善个人信息  -->
+  <view class='headerListContainer'>
+    <view class='headerListView'>2</view>
+    <text class='headerListText'>完善个人信息</text>
+  </view>
+  <!--注册成功  -->
+  <view class='headerListContainer'>
+    <view class='headerListView'>3</view>
+    <text class='headerListText'>注册成功</text>
+  </view>
+  <view class='transverseLineLeft'></view>
+  <view class='transverseLineright'></view>
+</view>
+<view class='mainContainer'>
+  <!--用户名  -->
+  <view class='mainListContainer'>
+    <view class='mainListText'>用户名</view>
+    <input class='mainListInput' placeholder='请输入数字,字母或中文' maxlength='25' bindinput='userNameInput'></input>
+  </view>
+  <!--密码  -->
+  <view class='mainListContainer'>
+    <view class='mainListText'>密码</view>
+    <input class='mainListInput' placeholder='长度6~14位' password='true' maxlength='14' bindinput='userPasswordInput'></input>
+  </view>
+  <!--确认密码  -->
+  <view class='mainListContainer'>
+    <view class='mainListText'>确认密码</view>
+    <input class='mainListInput' placeholder='请再次输入密码' password='true' maxlength='14' bindinput='userPasswordAgainInput'></input>
+  </view>
+</view>
+<!--agree  -->
+<view class='agreeContainer'>
+  <checkbox class='agreeCheckbox' checked="{{check}}" bindtap="checkboxChange"/>
+  <text>我已阅读并接受</text>
+  <text class='clause'>《用户注册条款》</text>
+</view>
+<!--nextButton  -->
+<view class='nextButton' bindtap='perfectInforTap'>下一步，完善个人信息</view>
+<!--binding  -->
+<view class='bindingContainer'>
+  <text>已有账号</text>
+  <text class='binding' bindtap='bindingTap'>请绑定</text>
+</view>

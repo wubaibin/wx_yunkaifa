@@ -1,0 +1,52 @@
+.phoneNumberContainer, .passwordContainer {
+  width: 90%;
+  height: 80rpx;
+  border: 1px solid #e0e0e0;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.phoneNumberContainer {
+  margin: 40rpx auto 0 auto;
+}
+
+.passwordContainer {
+  margin: 30rpx auto 0 auto;
+}
+
+.phoneNumberContainer>input, .passwordContainer>input {
+  width: 97%;
+  height: 80rpx;
+  font-size: 30rpx;
+  margin-left: 3%;
+}
+
+.bindingNormal {
+  width: 90%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  margin: 40rpx auto 0 auto;
+  font-size: 36rpx;
+  color: #fff;
+  background-color: #c6e2ff;
+}
+
+.bindingChecked{
+  width: 90%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  margin: 40rpx auto 0 auto;
+  font-size: 36rpx;
+  color: #fff;
+  background-color: #1e8dee;
+}
+
+.registerContainer {
+  width: 100%;
+  text-align: center;
+  font-size: 30rpx;
+  color: #4169e1;
+  margin-top: 20rpx;
+}

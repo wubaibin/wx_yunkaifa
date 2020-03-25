@@ -1,0 +1,94 @@
+page {
+  height: 100%;
+  background-color: #e9edf1;
+}
+
+.headerContainer {
+  width: 100%;
+  height: 500rpx;
+  background-color: #fff;
+}
+
+.headerBg{
+  width: 100%;
+  height: 100%;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 200rpx;
+  position: relative;
+}
+
+.sectionBg{
+  width: 100%;
+  height: 100%;
+}
+
+.headerImg {
+  width: 300rpx;
+  height: 80rpx;
+}
+
+.complain {
+  width: 300rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 60rpx;
+  left: 40rpx;
+}
+
+.report {
+  width: 300rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 60rpx;
+  right: 40rpx;
+}
+
+.mainContentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30rpx 0;
+  background-color: #fff;
+}
+
+.mainContentContainer>view:first-child {
+  border-right: 1px solid #ececec;
+}
+
+.mainListContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.mainListImg {
+  display: block;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.mainListTextContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 24rpx;
+  color: #816c5b;
+  margin: 0 20rpx;
+}
+
+.swiperContainer {
+  margin-top: 20rpx;
+}
+
+.swiperContent, .swiperImg {
+  width: 100%;
+  height: 200rpx;
+}

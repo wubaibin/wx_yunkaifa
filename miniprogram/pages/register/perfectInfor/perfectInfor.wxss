@@ -1,0 +1,130 @@
+page {
+  width: 100%;
+  height: 100%;
+  color: #6f6f70;
+  background-color: #e9edf1;
+  overflow: hidden;
+  position: relative;
+}
+
+/*头部  */
+
+.headerContainer {
+  width: 90%;
+  margin: 40rpx auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+}
+
+.headerListContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerListView {
+  width: 70rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  margin: 0 auto 10rpx auto;
+  border-radius: 50%;
+  font-size: 32rpx;
+  color: #fff;
+  background-color: #d1d1d1;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.headerListText {
+  font-size: 28rpx;
+  color: #d1d1d1;
+}
+
+.headerListOldActive>view.headerListView {
+  color: #fff;
+  background-color: #4773e1;
+}
+
+.headerListActive>view.headerListView {
+  color: #4773e1;
+  background-color: #fff;
+  line-height: 65rpx;
+  border: 2px solid #4773e1;
+}
+
+.headerListActive>text.headerListText, .headerListOldActive>text.headerListText {
+  color: #4773e1;
+}
+
+.transverseLineLeft, .transverseLineright {
+  width: 26%;
+  height: 8rpx;
+  z-index: 0;
+}
+
+.transverseLineLeft {
+  position: absolute;
+  top: 35rpx;
+  left: 135rpx;
+  background-color: #4773e1;
+}
+
+.transverseLineright {
+  position: absolute;
+  top: 35rpx;
+  right: 135rpx;
+  background-color: #d1d1d1;
+}
+
+.mainContainer {
+  width: 90%;
+  margin: 20rpx auto 0 auto;
+}
+
+.mainListContainer {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #dee1e4;
+}
+
+.mainContainer>view.mainListContainer:last-child {
+  border-bottom: 0;
+}
+
+.mainListText {
+  width: 30%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  text-align: right;
+}
+
+.mainListInput {
+  width: 420rpx;
+  height: 80rpx;
+  font-size: 30rpx;
+}
+
+.cardText {
+  width: 420rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+}
+
+.nextButton {
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 38rpx;
+  margin: 30rpx auto 0 auto;
+  color: #fff;
+  background-color: #3b6ae0;
+  border-radius: 15rpx;
+}
